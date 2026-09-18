@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test/cache files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+*~
+
+# Local captures
+# Raw RS485 captures can be large and may contain installation-specific data.
+*.bin
+*.log
+
+# Generated output
+*.jsonl
+*.csv
+dist/
+build/
+tools/ft232_capture
